@@ -180,7 +180,7 @@ span {
   position: relative;
 }
 .text-animation span::before {
-  content: "Web Developer";
+  content: "Data Scientist";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -203,23 +203,23 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Frontend Designer";
+    content: "Data Scientist";
   }
   21%,
   40% {
-    content: "Web Designer";
+    content: "Web Developer";
   }
   41%,
   60% {
-    content: "UI / UX Designer";
+    content: "Complete Enthusiast";
   }
   61%,
   80% {
-    content: "Web Developer";
+    content: "Passionate Learner";
   }
   81%,
   100% {
-    content: "Software Tester";
+    content: "Problem Solver";
   }
 }
 @keyframes typing {
@@ -260,7 +260,7 @@ span {
   margin-bottom: 5rem;
 }
 .timeline-items {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -341,7 +341,7 @@ span {
   width: 50px;
 }
 .services {
-  background: var(--bg-color);
+  background: var(--secound-bg-color);
   color: black;
 }
 .services h2 {
@@ -391,7 +391,7 @@ span {
   margin: auto;
 }
 .testimonials {
-  background: var(--secound-bg-color);
+  background: var(--bg-color);
 }
 .testimonials-box {
   background-size: cover;
@@ -501,6 +501,7 @@ span {
   border: 2px solid var(--main-color);
   width: 42px;
   height: 42px;
+  padding-top: 6px;
   display: inline-block;
   text-align: center;
   margin: 0 10px;
